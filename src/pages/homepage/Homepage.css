@@ -1,0 +1,73 @@
+/* GENERAL */
+.btn{
+  background-color: #fff; /* Green */
+  color: #000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 1px solid rgb(235, 235, 235);
+  margin-top: 10px;
+  transition: background-color 0.5s ease;
+}
+
+.btn:hover{
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+/* SECTION USERS */
+.section-users{
+    padding: 96px 50px;
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+}
+
+.section-users .user-image > img{
+    border-radius: 50%;
+}
+.users-list{
+    flex: 1;
+}
+
+.users-details{
+    flex: 1;
+}
+.users-list ul{
+    list-style: none;
+}
+
+.users-list ul li{
+    margin: 15px 0;
+}
+
+.single-user{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.single-user .user-information{
+    text-align: left;
+}
+
+.single-user:hover{
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+.user-card{
+    padding: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(235, 235, 235);
+    width: 500px;
+}
+
+.user-card p{
+    margin: 0;
+}
